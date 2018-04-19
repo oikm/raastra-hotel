@@ -245,22 +245,29 @@ aside h3 {
 }
 
 .booking-form input, .booking-form select {
-  padding-top: 10px;
+  height: 30px;
   margin-top: 5px;
   margin-bottom: 5px;
   width: 100%;
+  font-size: 15px;
+}
+
+.booking-form select {
+  margin-bottom: 10px;
 }
 
 .booking-form label {
   font-weight: bold;
 }
 
-.booking-form input[type="textarea"] {
+.booking-form textarea {
   height: 90px;
+  width: 100%;
+  margin-bottom: 5px;
 }
 
 .booking-form option {
-  padding: 5px;
+  margin: 5px;
 }
 
 .details h4, .details p {
@@ -350,8 +357,6 @@ button {
     width: 100%;
     margin-bottom: 10px;
   }
-
-
 
   .copy,
   .subscribe {
